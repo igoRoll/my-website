@@ -5,7 +5,7 @@ const quotes = [
     "החלומות שלך לא צריכים להיות גדולים יותר, אתה צריך להיות גדול יותר בשביל החלומות שלך."
 ];
 
-function newQuote() {
+document.getElementById("newQuoteButton").addEventListener("click", function() {
     const randomIndex = Math.floor(Math.random() * quotes.length);
     document.getElementById("quote").innerText = quotes[randomIndex];
-}
+});
