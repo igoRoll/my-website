@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #f0f4f8;
+    background-color: #e6eef2; /* צבע רקע בהיר יותר */
     color: #333;
     display: flex;
     justify-content: center;
@@ -19,26 +19,26 @@ html, body {
 }
 
 .recommendation {
-    background-color: #f7eaea;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 600px;
-    width: 80%;
+    background-color: #ffe4e1; /* צבע רקע עדין */
+    border-radius: 15px; /* קצוות מעוגלות יותר */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* צל עוצמתי יותר */
+    padding: 30px; /* פדינג גדול יותר */
+    max-width: 500px; /* רוחב מקסימלי קטן יותר */
+    width: 90%;
     transition: background-color 1s ease, opacity 0.5s ease;
     opacity: 1;
     animation: fadeIn 1s ease-in-out;
 }
 
 .recommendation h2 {
-    font-size: 1.8em;
+    font-size: 2em;
     margin-bottom: 20px;
     animation: slideInDown 0.5s ease-in-out;
 }
 
 .recommendation p {
     font-size: 1.2em;
-    color: #4a90e2;
+    color: #333; /* צבע טקסט כהה יותר */
     animation: fadeIn 1s ease-in-out;
 }
 
@@ -46,12 +46,12 @@ html, body {
     background-color: #4a90e2;
     color: white;
     border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
+    border-radius: 25px; /* קצוות מעוגלות יותר לכפתור */
+    padding: 12px 25px;
     font-size: 1em;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
-    margin: 10px 0;
+    margin: 20px 0; /* מרווחים גדולים יותר */
 }
 
 .recommendation button:hover {
